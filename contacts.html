@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 400;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            width: 100%;
+            max-width: 800px;
+            background-color: #f0c888;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 32px;
+            color: #555;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            margin: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            transition: background-color 0.3s, color 0.3s;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #e0b878;
+            color: white;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-top: 100px; 
+            margin-bottom: 30px;
+            color: #555;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin: 60px 0;
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+            width: 85%;
+            max-width: 900px;
+            text-align: left;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        section li {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        section a {
+            color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        section a:hover {
+            color: #0056b3;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #007BFF;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Contact Me</h1>
+        <a href="index.html" class="home-link"><i class="fa-solid fa-house"></i> Home</a>
+    </nav>
+    
+    <section id="contact">
+        <ul>
+            <li><i class="fas fa-envelope"></i> Email: <a href="mailto:cuenco.johnlouie@ue.edu.ph">cuenco.johnlouie@ue.edu.ph</a></li>
+            <li><i class="fas fa-phone"></i> Phone: <a href="tel:09989101824">09989101824</a></li>
+        </ul>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100005166846174&mibextid=wwXIfr&rdid=rn4dhBFvEOccY2l2&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BRLqGw2hn%2F%3Fmibextid%3DwwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/lhjoun/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/your_twitter_profile" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://telegram.me/your_telegram_profile" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+        </div>
+    </section>
+</body>
+</html>
