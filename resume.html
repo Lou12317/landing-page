@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Roboto Slab', serif; 
+            font-weight: 400;
+            background-color: #f9f9f9; 
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            color: #555;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .heading {
+            border-bottom: 2px solid #b7b7a4;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background-color: #f0c888; 
+            color: black; 
+            padding: 5px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        .go-top {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+            color: blue;
+        }
+
+        .home-link {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .home-link:hover {
+            background-color: #e0b878;
+            color: white;
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px; 
+            border-radius: 10%; 
+            margin-right: 10px; 
+            float: left;
+        }
+
+        .highlight {
+            font-weight: bold;
+            padding: 2px 4px; 
+            border-radius: 3px; 
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="home-link"><i class="fa-solid fa-house"></i> Home</a>
+    <div class="container">
+        <h1>My Resume</h1>
+        <div class="about">
+            <h2 class="heading">About Me</h2>
+            <p>
+                <img src="/childhood/resume.jpg" alt="Profile Picture" class="profile-image" style="float: left; margin-right: 10px;">
+                Hi, my name is <span class="highlight">John Louie R. Cuenco</span>, and I'm 19 years old from Antipolo City. 
+                I am currently pursuing a degree in Information Technology at the University of the East. I am dedicated,
+                hardworking, and eager to learn. I believe that your company will help me grow my skills and contribute effectively.
+            </p>
+        </div>
+
+        <div class="skills">
+            <h2 class="heading">Technical IT Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>Database Management (MySQL)</li>
+                <li>C#</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h2 class="heading">Work Experience</h2>
+            <ul>
+                <li>None</li>
+            </ul>
+        </div>
+
+        <div class="education">
+            <h2 class="heading">Educational Attainment</h2>
+            <ul>
+                <li>Precious Heritage Christian School (2014-2017)</li>
+                <li>Don Antonio de Zuzuarregui, Sr. Memorial Academy (2017-2021)</li>
+                <li>FEU Cainta (2021-2023)</li>
+                <li>University of the East (2023-2025)</li>
+            </ul>
+        </div>
+
+        <div class="training">
+            <h2 class="heading">Skills, Training, Seminar Attended</h2>
+            <ul>
+                <li>Good at teamwork projects</li>
+                <li>Capable of managing multiple assignments</li>
+            </ul>
+        </div>
+
+        <div class="hobbies">
+            <h2 class="heading">Hobbies/Interests</h2>
+            <ul>
+                <li>Web Design</li>
+                <li>Game Development</li>
+                <li>Software Development</li>
+                <li>Sports</li>
+            </ul>
+            <a href="#top" class="go-top">Go Top</a>
+        </div>
+    </div>
+</body>
+</html>

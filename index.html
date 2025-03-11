@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Personal Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet"> 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 400;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            width: 100%;
+            max-width: 800px;
+            border: 1px solid #ddd;
+            background-color: #f0c888;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; 
+            justify-content: space-around;
+        }
+
+        nav li {
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #E0B878;
+            color: white;
+        }
+
+        nav li.active {
+            background-color: #e0b878;
+        }
+
+        h1, h2 {
+            color: #555;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container, section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+            width: 85%;
+            max-width: 800px;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            text-align: left;
+        }
+
+        section p {
+            text-align: justify;
+            text-indent: 2em;
+        }
+
+        section a {
+            color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        section a:hover {
+            color: #0056b3;
+        }
+
+        .about-me-image {
+            max-width: 200px;
+            border-radius: 10px;
+            margin-right: 30px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .social-links a {
+            margin: 0 5px;
+            font-size: 20px;
+            color: #555;
+        }
+
+        video {
+            width: 100%;
+            height: 350px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="active"><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="biography.html"><i class="fa-solid fa-user"></i> Biography</a></li>
+            <li><a href="skills.html"><i class="fa-solid fa-medal"></i> Skills</a></li>
+            <li><a href="resume.html"><i class="fa-solid fa-file"></i> Resume</a></li>
+            <li><a href="contacts.html"><i class="fa-solid fa-address-book"></i> Contacts</a></li>
+        </ul>
+    </nav>
+
+    <div class="video-container">
+        <h2>Welcome Video</h2>
+        <video controls>
+            <source src="welcome.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section id="about-me">
+        <img src="itad.jpg" alt="Your Profile Picture" class="about-me-image">
+        <div>
+            <h1>About Me</h1>
+            <p>
+                Hello! My name is John Louie Cuenco, I’m 19 years old, and I’m from Antipolo City, born in 2005. I’m a Taurus, 
+                and I’m currently in college at the University of the East, pursuing a degree in Information Technology. 
+                I’ve always been fascinated by technology and the ever-evolving digital world. In my free time, I enjoy watching 
+                movies and series, riding motorcycles, playing video games, playing basketball, and getting some good sleep.
+                I believe in always striving to learn and grow, and I’m excited to see where my journey in education and life 
+                will take me. Feel free to explore my website to learn more about my skills, experiences, and interests.
+            </p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100005166846174&mibextid=wwXIfr&rdid=rn4dhBFvEOccY2l2&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BRLqGw2hn%2F%3Fmibextid%3DwwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/lhjoun/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/your_twitter_profile" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://telegram.me/your_telegram_profile" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
